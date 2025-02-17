@@ -6,7 +6,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en" className="theme-compiled">
         <Head>
-          <!-- Matomo -->
               <script>
                 var _paq = window._paq = window._paq || [];
                 /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -20,8 +19,6 @@ class MyDocument extends Document {
                   g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
                 })();
               </script>
-              <!-- End Matomo Code -->
-
         <Head />
         <body
           className={`antialiased text-lg bg-white dark:bg-gray-900 dark:text-white leading-base`}
